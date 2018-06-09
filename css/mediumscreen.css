@@ -1,0 +1,135 @@
+	/*styling the header*/
+	header.nav{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 120px;
+	border-bottom: 5px solid #003459;
+	}
+
+	/*there are 2 boxes in header.they are next to each other*/
+	.left{
+		width: 50%;
+		order: 1;
+		text-align: center;
+	}
+
+	.right{
+		width: 50%;
+		order: 2;
+	text-align: center;
+	}
+
+	/*styling the elements in the right and left box */
+	.name{
+	margin-top: 20px;
+	}
+
+	.label{
+	margin-top: 10px;
+	}
+
+	.image{
+		margin-top: 22px;
+		margin-right: 110px;
+	}
+
+	/*styling the section containing profile and video.Placed it 
+	next to each other in the ipad view*/
+	.section{
+		display: flex;
+	flex-wrap: wrap;
+	}
+
+	article.summary{
+		width: calc((100% - 80px) / 2);
+		margin-right: 10px;
+		height: auto;
+		padding-left: 15px;
+	}
+/*add in gthub*/
+	img.photo{
+		height: 8vw;
+		width: 8vw;
+		display: block;
+		margin: 0;
+		margin-left: 14vw;
+		margin-top: 0;
+		padding: 0;
+	}
+
+	iframe.frame{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	section.video{
+		width: calc((100% - 80px) / 2);
+		height: auto;
+		margin-left: 20px;
+	}
+
+	p.detail{
+		margin-top: 5px;
+	}
+	/*styling to adjust the photo and improve
+	responsiveness*/
+	@media screen and (max-width:900px){
+		p.detail{
+		  font-size: 1em;
+		}
+	}
+	/*styling the featured work, 2 in one row*/
+	main.works{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	/*styling the flexboxes with the works*/		  
+	div.work1{
+	width: calc((100% - 20px) / 2);
+	margin-right: 10px;
+	order: 1;
+	margin-bottom: -3vw;
+	}
+
+	div.work2{
+		width: calc((100% - 20px) / 2);
+	    margin-left: 10px;
+		order: 2;
+		margin-bottom: -3vw;
+	}
+
+	div.work3{
+			width: calc((100% - 20px) / 2);
+		    margin-right: 10px;
+			order: 3;
+			margin-top: -5vw;
+			margin-bottom: -5vw;
+	}
+
+	div.work4{
+		width: calc((100% - 20px) / 2);
+	    margin-left: 10px;
+		order: 4;
+		margin-top: -5vw;
+		margin-bottom: -5vw;
+	}
+	/*styling the images in works*/
+	img.img-box{
+		height: calc((100% - 20px) / 2);
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	/*syling the labels in works*/
+	h2.style1.profile{
+		margin: 0;
+	}
+	
+	h3.style2{
+		margin-top: 1vh;
+	}

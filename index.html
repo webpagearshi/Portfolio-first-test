@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+	<title> Portfolio</title>
+	<!--google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
+	<!--fontawesome stylesheets-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- my stylesheets-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" media="screen and (min-width: 701px)" href="css/mediumscreen.css">
+	<link rel="stylesheet" media="screen and (min-width:1024px)" href="css/largescreen.css">
+</head>
+
+<body>
+	<!--the main container  -->
+	<div class="container">
+		<!--the header container -->
+		<header class="nav">
+			<!--the left flexbox holding the logo  -->
+			<div class="left">
+				<div class="logo"><img class="image" src="img/logo1.jpg" alt="logo">
+				</div>
+			</div>
+			<!--the right flexbox holding name and label -->
+			<div class="right">
+				<div class="intro">
+				<h1 id="type" class="name">Arshi Saleh</h1>
+				<p class="label">FRONT END WEB DEVELOPER</p>
+				</div>
+			</div>
+		</header>
+
+		<!--the container holding full screen image -->
+		<div class="container-small">
+			<!--the flexbox with the full screen image -->
+			<img class="full-screen" alt="full-screen" src="img/image1.jpg">
+		</div>
+
+		<!--the container holding my profile and video -->
+	 	<div class="section">
+	 		<!--flex-box containing the profile with heading-->
+			<article class="summary">
+				<h2  class="profile">My Profile</h2>
+					<img class="photo" alt="my-photograph" src="img/photo.jpg">
+					<p class="detail">Hi, I am Arshi Saleh.I am a front end developer and CRM consultant.Connect with me to give your company the digital advantage with an amazing website and a well implemented and customized CRM solution.</p>
+			</article>
+			<!-- flex-box holding the video and title-->
+			<section class="video">
+				<h2 class="profile">Take a Look</h2>
+				<!--embed code from vimeo-->
+				<div class="vimeo">
+					<iframe class="frame" src="https://player.vimeo.com/video/273819083?title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</section>
+		<!--end of embed code-->
+		</div>
+
+		<!-- container with featured works -->
+		<main class="works">
+			<h2 class="heading">Featured Work</h2>
+			<!--flexbox containing my work 1-->
+			<div class="work1">
+				<a href="https://webpagearshi.github.io/ThrivingCities-Memphis-Events/"><img class="img-box" src="img/event.jpg" alt="events"></a>
+				<h2 class="style1 profile">Memphis Events</h2>
+				<h3 class="style2"><a class="link" href="https://github.com/webpagearshi/ThrivingCities-Memphis-Events">Know More</a></h3>
+			</div>
+			<!--flexbox containing my work 2-->
+			<div class="work2">
+				<a href="https://webpagearshi.github.io/Italy-Tours-Travels/"><img class="img-box" src="img/italy.jpg" alt="italy"></a>
+				<h2 class="style1 profile">Italy Tours & Travels</h2>
+				<h3 class="style2"><a class="link" href="https://github.com/webpagearshi/Italy-Tours-Travels">Know More</a></h3>
+			</div>
+			<!--flexbox containing my work 3-->
+			<div class="work3">
+				<a href="https://nimmo1993.github.io/HELP-NGO/"><img class="img-box"  src="img/ngo.jpg" alt="help-ngo"></a>
+				<h2 class="style1 profile">NGO Project</h2>
+				<h3 class="style2"><a class="link" href="https://github.com/Nimmo1993/HELP-NGO">Know More</a></h3>
+			</div>
+			<!--flexbox containing my work 4-->
+			<div class="work4">
+				<a href="https://webpagearshi.github.io/Pixel-Art-Maker/"><img class="img-box"  src="img/pixel.jpg" alt="pixel-art"></a>
+				<h2 class="style1 profile">Pixel-Art Maker Project</h2>
+				<h3 class="style2"><a class="link" href="https://github.com/webpagearshi/Pixel-Art-Maker">Know More</a></h3>
+			</div>
+		</main>
+		<!--end of featured works section-->
+	</div>
+	<!-- end of main container-->
+	<!--beginning of footer section-->
+	<footer class="end">
+		<!--heading-->
+			<h3 class="white">Connect with Me</h3>
+			<!--font awesome icons to connect-->
+			<div class="middle">
+			<!--medium-->
+			<a href="https://medium.com/@arshisaleh/how-i-started-my-journey-as-a-web-developer-f19774bc97e7"><i class="fab fa-medium fa-2x" aria-hidden="true"></i></a>
+			<!--twitter-->
+			<a href="https://twitter.com/SalehArshi"><i class="fab fa-twitter-square fa-2x"></i></a>
+			<!--linkedin-->
+			<a href="https://www.linkedin.com/in/arshisaleh/"><i class="fab fa-linkedin fa-2x"></i></a>
+			<!--github-->
+			<a href="https://github.com/webpagearshi"><i class="size fab fa-github-square fa-2x"></i></a>
+			</div>
+			<p class="white">Copywrite@2018 Arshi Saleh</p>
+			<p class="next">Images Sourced from unsplash.com</p>	
+	</footer>
+	<!--end of footer-->
+<!--js link to video-->
+<script src="https://player.vimeo.com/api/player.js"></script>
+<!--link to js files-->
+<script src="js/main.js"></script>
+</body>
